@@ -1,0 +1,913 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    justify-content: center;
+}
+
+.head-icon{
+    display: flex;
+    max-height: 80px;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+    padding: 15px 80px;
+
+}
+
+.painter-lady {
+    background-image: url(../img/hero-bg.jpg);
+    flex-direction: row;
+    color: white;
+    padding: 40px;
+    background-size: cover;
+    padding-top: 250px;
+    height: 780px;
+}
+
+.text-activity{
+    min-height: 260px;
+}
+.painter-lady h4 {
+    font-size: 3rem;
+    margin: 0%;
+    margin-bottom: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px
+}
+.painter-lady h1{
+    font-size: 6rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    display: block;
+    padding-top: 0;
+}
+
+.painter-lady hr{
+    margin-top: 0%;
+    width: 50%;
+    height: 13px;
+    background-color: #fff;
+    margin: 20px 0 5px;
+    margin-left: 0%;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 500px;
+    padding: 0 ;
+    text-align: left;
+    margin: 0;
+}
+
+.tools h5{
+    padding-top: 20px;
+}
+
+.first-comments{
+    padding: 150px 180px 100px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+/* .service-list {
+    justify-content: center;
+    align-content: space-between;
+} */
+
+.our-service h5{
+    font-size: 1.125rem;
+    color: #999999;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+.question{
+    font-size: xx-large;
+    margin: 20px 0;
+}
+.pitch {
+    font-size: 1.25rem;
+    padding: 0 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: grey;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.book-now{
+    padding: 4px;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 0.75rem;
+    pointer-events: initial;
+    cursor: pointer;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.contact{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    border: 15px solid transparent;
+}
+.contact-border{
+    width: 100%;
+    display: flex;
+    border: 15px solid transparent;
+    justify-content: center;
+    padding: 0 140px;
+}
+
+.plum-1{
+    padding-right: 0;
+    width: 50%;
+    align-content: flex-end;
+}
+
+/* .plum-1a{
+    align-content: center;
+} */
+
+.plum-2 {
+    padding: 80px 0 0 0;
+    width: 50%;
+}
+
+.plumber{
+    height: 400px;
+    padding: 50px 25px 30px 0;
+
+}
+
+.contact p{
+    text-align: left;
+    margin: 0 50px;
+    font-size: 1.2rem;
+    text-align: left;
+
+}
+
+.need-help{
+    font-size: x-large;
+    /* padding: 50px 0 0 0;  */
+    margin: 0%;
+}
+.contact-number{
+    font-size: 20px;
+    color: red;
+    margin: 20px 0;
+}
+.plumber-2{
+    height: 400px;
+    padding: 30px 50px 30px 0;
+    /* position: relative; */
+}
+
+.best-quality{
+    background-color: gainsboro;
+    height: 600px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.realtor {
+    width: 50%;
+}
+
+.realtor-man{
+    height: 600px;
+    padding: 0 0 0 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.best-grouped{
+    width: 50%;
+    padding: 100px 0 0 0;
+}
+
+.best-quality .best-word{
+    color: #104e92;
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    margin: 60px 0 0;
+}
+
+.best-quality hr {
+    margin-top: 0%;
+    width: 85%;
+    height: 13px;
+    background-color: red;
+    margin: 20px 0;
+    margin-left: 0%;
+}
+
+.best-quality p {
+    text-align: left;
+    padding-right: 150px ;
+    font-size: 1.25rem;
+    margin: 30px 5px 0;
+    justify-content: left;
+    color: black;
+}
+
+
+.tool-area {
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    min-height: 400px;
+    margin: 70px auto 0;
+}
+.tool-area h1{
+    font-size: 3rem;
+}
+.tool-area h5{
+    padding: 20px 0;
+}
+
+.paint-red, .electric, .repair-red{
+    background-color: #e71a23;
+    border-radius: 50%;
+    padding: 15px ;
+    height: 83px;
+    width: 83px;
+    margin: 0 256px 0 0;
+}
+
+.column-1{
+    text-align: left;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.column-2 {
+    padding: 0 0 0 25px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.column-3{
+    padding: 0 0 0 25px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.tool-column{
+    display: flex;
+    text-align: left;
+}
+
+.tool-column p {
+    margin: 0 5% 0 0;
+    font-style: italic;
+    word-wrap: break-word;
+    line-height: 1.2;
+    font-weight: lighter;
+    font-size: 1.125rem;
+}
+
+.red-paint-img{
+    font-size: 1.5rem;
+}
+
+.red-electric-img{
+    font-size: 1.5rem;
+}
+
+.red-repair-img{
+    font-size: 1.5rem;
+}
+
+.about-us{
+    background-color: #104e92;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.about-border{
+    display: flex;
+    border: 15px solid transparent;
+}
+
+.img-about{
+    display: block;
+    margin: 50px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.about-img-1 {
+    display: flex;
+}
+
+.about-img-2 {
+    display: flex;
+}
+
+.img-1{
+    margin: 0 10px 10px 0 ;
+}
+
+.img-2{
+    margin: 0 10px 10px ;
+}
+
+.img-3{
+    margin: 10px 10px 0 0;
+}
+
+.img-4{
+    margin: 10px 0 0 10px;
+}
+
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    /* padding: 50px 0 0 200px; */
+    margin: 50px;
+    width: 50%;
+    justify-content: center;
+}
+
+.about-text h6{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    color: white;
+    font-family: Montserrat, sans-serif !important;
+}
+
+.about-text h3{
+    line-height: 1;
+    font-weight: 400;
+    font-size: 6rem;
+    color: white;
+    margin: 10px 0 5px;
+}
+
+.to-do{
+    max-width: inherit;
+    height: 500px;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.to-do-content{
+    padding-top: 50px;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.to-do-text{
+    margin: 50px auto 30px 0;
+    font-size: 1.25rem;
+    background-color: white;
+    padding: 0 250px;
+}
+
+.to-do-text h2{
+    font-weight: 700;
+    margin: 0;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.to-do-text p {
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin: 30px 0 0;
+    text-align: center;
+    /* line-height: 1.6; */
+    box-sizing: border-box;
+    color: #454545;
+    justify-content: center;
+    pointer-events: initial;
+    box-sizing: border-box;
+    padding: 0 100px;
+}
+
+.to-do-button{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%; */
+    /* padding: 0 0 0 300px; */
+    justify-content: center;
+}
+
+.to-do-button-1 {
+    padding: 4px;
+    background-color: red;
+    border-color: red;
+    width: 150px;
+    height: 50px;
+    color: white;
+    box-shadow: none;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    padding-right: 15px;
+    pointer-events: initial;
+    cursor: pointer;
+}
+.to-do-button-2 {
+    padding: 4px;
+    background-color: white;
+    border-color: #454545;
+    width: 150px;
+    height: 50px;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    color: #454545;
+    box-shadow: none;
+    border-style: solid;
+    pointer-events: initial;
+    cursor: pointer;
+}
+
+.to-do-button, .to-do-button-1 {
+    margin-right: 15px;
+}
+
+@media (max-width: 770px) {
+    body{
+       width: auto;
+       align-content: center;
+    }
+    .head-icon{
+        width: 100%;
+        padding: 20px 50px;
+        margin: 0;
+    }
+    .painter-lady{
+        background-position: 90% 50%;
+    }
+    .text-activity{
+        padding: 250px 0 0 50px;
+    }
+
+    .painter-lady h4{
+        font-size: 3rem;
+    }
+    .painter-lady h1{
+        font-size: 5rem;
+    }
+    .painter-lady hr{
+        width: 85%;
+    }
+    .tools{
+        display: none;
+    }
+    .first-comments{
+        padding: 150px 100px 100px;
+    }
+
+    .our-service h5{
+        font-size: 1.125rem;
+        color: #999999;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin: 20px 0;
+    }
+    .pitch{
+        padding: 0 30px;
+    }
+    .contact{
+        background-color: white;
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        height: auto;
+    }
+    .contact-border{
+        display: table-column;
+        padding: 0;
+        justify-content: none;
+        border: none;
+        height: auto;
+
+    }
+    .plumber{
+        width: 600px;
+        height: 450px;
+        padding: 0;
+    }
+    .plum-1{
+        width: 100%;
+        padding: 50px 20px 50px 60px;
+    }
+    .contact-number{
+        padding-left: 150px;
+    }
+    .contact-number h3{
+        align-content: center;
+    }
+
+    .contact p{
+        padding-top: 50px;
+        /* text-align: left; */
+        /* padding: 40px 0 0 0;
+        margin-right: 70px; */
+    }
+    .plum-2{
+        width: 100%;
+        align-content: center;
+        padding: 50px 50px 50px 60px;
+    }
+    .plumber-2{
+        width: 650px;
+        height: 450px;
+        padding: 0;
+    }
+    .need-help {
+        font-size: 1rem;
+        padding: 0 0 0 200px;
+    }
+    .best-quality{
+        background-color: gainsboro;
+        height: 1200px;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .best-grouped{
+        width: 50%;
+        padding: 100px 0 0 0;
+        align-content: center;
+        margin: 0 0 0 100px
+    }
+    .best-quality .best-word{
+        font-size: 3.125rem;
+    }
+    .best-quality hr{
+        width: 150%;
+    }
+    .best-quality p{
+        padding: 0;
+        font-size: 1.123rem;
+        width: 140%;
+    }
+    .tool-area{
+        display: flex;
+        height: 900px;
+        line-height: 1.6;
+        font-size: 1.125rem;
+    }
+    .tool-column {
+        flex-direction: row;
+    }
+    .column-1{
+        padding: 50px 0;
+    }
+    .column-2{
+        padding: 50px 0;
+        margin: 0 30px;
+    }
+    .column-3{
+        padding: 50px 0;
+    }
+    .red-paint-img{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    
+    .red-electric-img{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+
+    .paint-red, .electric, .repair-red{
+        margin: 0 100px 0 0;
+    }
+    
+    .red-repair-img{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    .about-border{
+        display: table-column;
+        border: none;
+    }
+    .about-us{
+        flex-direction: column;
+        /* height: 2085px; */
+    }
+    .about-text h3 {
+        font-size: 4.5rem;
+    }
+    .about-img-1{
+        flex-direction: column;
+    }
+    .img-about{
+        display: flex;
+    }
+    .img-1{
+        width: 325px;
+        height: 291px;
+        margin-bottom: 20px;
+    }
+    .img-2{
+        width: 325px;
+        height: 291px;
+        margin-bottom: 10px;
+    }
+
+    .about-img-2{
+        flex-direction: column;
+    }
+    .img-3{
+        width: 325px;
+        height: 291px;
+        margin-bottom: 20px;
+    }
+    .img-4{
+        width: 325px;
+        height: 291px;
+    }
+    .to-do-content{
+        height: 650px;
+    }
+    .to-do-text{
+        padding: 0 50px;
+    }
+    .to-do-text p{
+        padding: 0 70px;
+    }
+    .to-do-button{
+        padding: 0 0 0 300px;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-direction: column;
+    }
+    .to-do-button-1{
+        margin-bottom: 50px; ;
+    }
+}
+
+
+@media (max-width: 428px){
+    .head-icon{
+        width: 100%;
+        padding: 20px 50px;
+        margin: 0;
+    }
+    body{ 
+        width: 100%;
+        line-height: 1.2;
+    }
+
+    .painter-lady{
+        background-position: 84% 50%;
+    }
+    .text-activity{
+        padding: 300px 0 0 20px;
+    }
+    .painter-lady h4{
+        font-size: 1.8rem;
+    }
+    .painter-lady h1{
+        font-size: 3rem;
+    }
+    .painter-lady hr{
+        width: 85%;
+        height: 8px;
+    }
+    .tools{
+        display: none;
+    }
+    .first-comments{
+        padding: 50px 50px;
+    }
+
+    .our-service h5{
+        font-size: 1.125rem;
+        color: #999999;
+        font-weight: 400;
+        letter-spacing: 2px;
+    
+    }
+
+    .plumber{
+        width: 340px;
+        height: 350px;
+    }
+    .contact{
+        padding: 0;
+        width: 100%;
+        height: 1200px;
+    }
+    .contact-border{
+        width: 80%;
+    }
+    .pitch{
+        padding: 0 30px;
+        font-size: 1rem;
+        margin: 20px 0 0;
+    }
+
+    .plum-1{
+        /* margin: 0 5px 0 70px; */
+        padding: 0;
+        width: 80%;
+        margin: 50px 50px;
+
+    }
+    .contact p{
+        text-align: left;
+        padding: 50px 0 0;
+        width: 100%;
+        margin: 0;
+        font-size: 1rem;
+    }
+    .plum-2{
+        padding: 50px 0 0 0;
+        width: 80%;
+        margin: 0 50px 50px;
+    }
+
+    .need-help{
+        /* margin-left: 280px; */
+        padding: 0;
+        width: 100%;
+    }
+    .plumber-2{
+        /* margin-left: 300px; */
+        width: 340px;
+        height: 350px;
+    }
+    .contact-number{
+        padding: 0;
+        /* margin-left: 300px; */
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .best-quality{
+        background-color: gainsboro;
+        height: 1100px;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .realtor{
+        width: 100%;
+    }
+    .realtor-man{
+        height: 375px;
+        padding: 0 0 0 100px;
+    }
+    .best-grouped{
+        width: 50%;
+        align-content: center;
+        margin: 0 0 0 100px;
+        padding-top: 50px;
+    }
+    .best-quality .best-word{
+        font-size: 2.7rem;
+    }
+    .best-quality hr{
+        width: 100%;
+        height: 7px;
+    }
+    .best-quality p{
+        padding: 0;
+        font-size: 1.123rem;
+        width: 100%;
+        margin: 30px 0 0;
+    }
+    .tool-area{
+        height: 900px;
+        line-height: 1.6;
+        font-size: 1.125rem;
+        margin: 50px auto;
+    }
+    .tool-column {
+        flex-direction: column;
+    }
+    .column-1{
+        padding-top: 50px;
+    }
+    .column-2{
+        padding: 0;
+        margin: 0;
+    }
+    .column-3{
+        padding: 50px 0;
+    }
+    .red-paint-img{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    
+    .red-electric-img{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    
+    .red-repair-img{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    
+    .about-us{
+        flex-direction: column;
+        height: 1500px;
+        width: 100%;
+    }
+    .about-border{
+        border: none;
+        /* margin-top: -500px ; */
+    }
+    .about-text{
+        margin: 0;
+        padding: 50px 0 0 60px;
+    }
+    .about-text h3 {
+        font-size: 4.5rem;
+    }
+    .img-about{
+        flex-direction: column;
+    }
+    .about-img-1{
+        flex-direction: column;
+    }
+    .img-1{
+        width:320px;
+        height: 272px;
+        margin-bottom: 20px;
+    }
+    .img-2{
+        width:320px;
+        height: 272px;
+        margin-bottom: 10px;
+    }
+
+    .about-img-2{
+        flex-direction: column;
+    }
+    .img-3{
+        width:320px;
+        height: 272px;
+        margin-bottom: 20px;
+    }
+    .img-4{
+        width:320px;
+        height: 272px;
+    }
+    .to-do-content{
+        height: 650px;
+    }
+    .to-do-text{
+        padding: 0 50px;
+    }
+    .to-do-text p{
+        padding: 0 5px;
+    }
+    .to-do-button{
+        padding: 0 0 100px 140px;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-direction: column;
+    }
+    .to-do-button-1{
+        margin-bottom: 50px; ;
+    }
+}

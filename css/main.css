@@ -632,7 +632,7 @@ header {
         /* height: 2085px; */
     }
     .about-text h3 {
-        font-size: 4.5rem;
+        font-size: 1rem;
     }
     .about-img-1{
         flex-direction: column;
@@ -696,10 +696,12 @@ header {
     }
 
     .painter-lady{
-        background-position: 84% 50%;
+        background-position: 74% 50%;
+        padding: 300px 0 0 0;
     }
     .text-activity{
-        padding: 300px 0 0 20px;
+        padding: 300px 0 0 10px;
+        font-size: 30px;
     }
     .painter-lady h4{
         font-size: 1.8rem;
@@ -727,13 +729,13 @@ header {
     }
 
     .plumber{
-        width: 340px;
-        height: 350px;
+        width: 230px;
+        height: 250px;
     }
     .contact{
         padding: 0;
         width: 100%;
-        height: 1200px;
+        height: 1000px;
     }
     .contact-border{
         width: 80%;
@@ -768,17 +770,18 @@ header {
         /* margin-left: 280px; */
         padding: 0;
         width: 100%;
+        font-size: 12px;
     }
     .plumber-2{
         /* margin-left: 300px; */
-        width: 340px;
-        height: 350px;
+        width: 230px;
+        height: 250px;
     }
     .contact-number{
         padding: 0;
         /* margin-left: 300px; */
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 12px;
     }
     .best-quality{
         background-color: gainsboro;
@@ -792,12 +795,12 @@ header {
     }
     .realtor-man{
         height: 375px;
-        padding: 0 0 0 100px;
+        padding: 0 0 0 30px;
     }
     .best-grouped{
         width: 50%;
         align-content: center;
-        margin: 0 0 0 100px;
+        margin: 0 0 0 50px;
         padding-top: 50px;
     }
     .best-quality .best-word{
@@ -814,7 +817,7 @@ header {
         margin: 30px 0 0;
     }
     .tool-area{
-        height: 900px;
+        height: 1000px;
         line-height: 1.6;
         font-size: 1.125rem;
         margin: 50px auto;
@@ -851,6 +854,10 @@ header {
         flex-direction: column;
         height: 1500px;
         width: 100%;
+
+    }
+    .about-text h6{
+        font-size: 15px;
     }
     .about-border{
         border: none;
@@ -861,7 +868,7 @@ header {
         padding: 50px 0 0 60px;
     }
     .about-text h3 {
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
     .img-about{
         flex-direction: column;
@@ -870,27 +877,29 @@ header {
         flex-direction: column;
     }
     .img-1{
-        width:320px;
-        height: 272px;
+        width:220px;
+        height: 250px;
         margin-bottom: 20px;
     }
     .img-2{
-        width:320px;
-        height: 272px;
+        width: 230px;
+        height: 250px;
         margin-bottom: 10px;
+        margin-left: 0;
     }
 
     .about-img-2{
         flex-direction: column;
     }
     .img-3{
-        width:320px;
-        height: 272px;
+        width: 230px;
+        height: 250px;
         margin-bottom: 20px;
     }
     .img-4{
-        width:320px;
-        height: 272px;
+        width:230px;
+        height: 250px;
+        margin: 0;
     }
     .to-do-content{
         height: 650px;
@@ -902,7 +911,7 @@ header {
         padding: 0 5px;
     }
     .to-do-button{
-        padding: 0 0 100px 140px;
+        padding: 0 0 100px 90px;
         justify-content: space-between;
         align-content: space-between;
         flex-direction: column;
